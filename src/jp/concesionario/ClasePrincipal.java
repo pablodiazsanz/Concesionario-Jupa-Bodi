@@ -5,57 +5,46 @@ import java.util.Scanner;
 public class ClasePrincipal {
 
 	public static void main(String[] args) {
-		System.out.println("Hola mundo de programadores");
-		
-		// Abro el scanner
-		Scanner sc=new Scanner(System.in);
 
-		int opcion;	
-		
+		// Aqui llamamos al metodo menu de la clase EntradaSalida y nos devuelve un
+		// numero entero que es la opcion
+		int opcion = EntradaSalida.menuPrincipal();
+
 		do {
-			// Menu principal
-			System.out.println("\nMENU PRINCIPAL");
-			System.out.println("1.Comprar coches");
-			System.out.println("2.Vender tus coches");
-			System.out.println("3.Financiación");
-			System.out.println("4.Entrar como trabajador");
-			System.out.println("5.Opciones");		
-			System.out.println("6.Salir");
-			
-			System.out.println("Selecciona una opción...");
-			opcion = sc.nextInt();
-		
-			switch(opcion) {
+			switch (opcion) {
 			case 1: // Comprar coches
 				break;
-				
+
 			case 2: // Vender tus coches
 				break;
-				
-			case 3: // Financiación
+
+			case 3: // Financiaciï¿½n
 				break;
+
+			case 4: // Entrar como trabajador
 				
-			case 4:	// Entrar como trabajador
+				// MENU DEL TRABAJADOR (JUAN)
 				// Menu
-				System.out.println("1.Añadir coche");
+				System.out.println("1.Aï¿½adir coche");
 				System.out.println("2.Eliminar coche");
 				System.out.println("3.Ver coches");
-				
-				System.out.println("Selecciona una opción...");
-				opcion = sc.nextInt();				
+
+				System.out.println("Selecciona una opciï¿½n...");
+				//opcion = sc.nextInt();
 				break;
-				
+
 			case 5: // Opciones
 				break;
-				
+
 			case 6: // Salir
 				break;
-				
-				default: System.out.println("Opción no válida");
+
+			default:
+				System.out.println("Opcion no valida");
 			}
-			
-		}while (opcion !=6);		
-			
+
+		} while (opcion != 6);
+
 	}
-		
+
 }
