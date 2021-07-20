@@ -21,7 +21,8 @@ public class Controlador {
 				break;
 
 			case 4: // Entrar como trabajador
-				opcion = EntradaSalida.menuTrabajador();
+				// AQUI ES DONDE VAMOS A TRABAJAR (PROGRAMA JUAN)
+				arrancarMenuTrabajador();
 				break;
 
 			case 5: // Opciones
@@ -35,6 +36,11 @@ public class Controlador {
 			}
 
 		} while (opcion != 6);
+	}
+
+	private static void arrancarMenuTrabajador() {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

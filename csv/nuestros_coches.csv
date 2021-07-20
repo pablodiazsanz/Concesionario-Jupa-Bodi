@@ -1,0 +1,5 @@
+marca;modelo;potencia;matricula;kilometros;es_diesel
+Porsche;Cayman;300;4527LHF;5000;false
+Toyota;Auris;100;3423FXH;30000;false
+Audi;A1;110;6537KZG;30000;false
+Honda;CRV;150;5367GHT;100000;true
